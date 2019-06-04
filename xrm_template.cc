@@ -5,7 +5,7 @@ class XRM
     uint64_t operator()(uint64_t value) const
     {
         value ^= X;
-        value = (value>>R) + (value<<(64-R));
+        value = (value>>R) + (value<<(64-R)); // bit rotate
         value *= M;
         return value;
     }
