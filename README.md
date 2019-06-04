@@ -2,7 +2,7 @@
 
 I'm looking for 6 parameters X1, X2, R1, R2, M1, M2 so that the nested function call is equivalent to addition:
 
-```
+```c++
 // C++:
 #include "xrm_template.cc"
 
